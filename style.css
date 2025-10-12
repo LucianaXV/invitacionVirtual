@@ -816,17 +816,17 @@ button:hover {
     }
     
     #flores {
-        width: 220px;
-        max-height: 130px;
-    }
-    
-    .floral-decoration img:first-child {
-        width: 210px;
-    }
-    
-    .floral-decoration img:last-child {
-        width: 230px;
-    }
+    width: 120px;
+    max-height: 130px;
+}
+
+.floral-decoration img:first-child {
+    width: 110px;
+}
+
+.floral-decoration img:last-child {
+    width: 130px;
+}
     
     .date-line .date {
         font-size: 30px;
@@ -938,15 +938,17 @@ button:hover {
     
     #flores {
         width: 180px;
-        max-height: 200px;
+        max-height: 190px;
     }
-    
+
     .floral-decoration img:first-child {
-        width: 180px;
+        width: 170px;
+        margin-left: -10px; /* los empuja más al borde */
     }
-    
+
     .floral-decoration img:last-child {
         width: 190px;
+        margin-right: -10px; /* los empuja más al borde */
     }
     
     .date-line .date {
