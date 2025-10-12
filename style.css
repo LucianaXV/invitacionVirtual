@@ -937,16 +937,16 @@ button:hover {
     }
     
     #flores {
-        width: 80px;
-        max-height: 100px;
+        width: 180px;
+        max-height: 200px;
     }
     
     .floral-decoration img:first-child {
-        width: 80px;
+        width: 180px;
     }
     
     .floral-decoration img:last-child {
-        width: 90px;
+        width: 190px;
     }
     
     .date-line .date {
