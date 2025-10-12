@@ -38,41 +38,44 @@
 
     <!-- Sección Timer -->
     <section class="countdown-section">
-        <div class="countdown-bg">
-            <div class="countdown-circle">
-                <h2>Falta</h2>
+        <div class="fondo-timerr">
+            <div class="countdown-bg">
+                <div class="countdown-circle">
+                    <h2>Falta</h2>
 
-                <div class="countdown-timer">
-                    <div class="time-unit">
-                        <div id="days">00</div>
-                        <span>días</span>
+                    <div class="countdown-timer">
+                        <div class="time-unit">
+                            <div id="days">00</div>
+                            <span>días</span>
+                        </div>
+
+                        <div class="divider" aria-hidden="true"></div>
+
+                        <div class="time-unit">
+                            <div id="hours">00</div>
+                            <span>hs</span>
+                        </div>
+
+                        <div class="divider" aria-hidden="true"></div>
+
+                        <div class="time-unit">
+                            <div id="minutes">00</div>
+                            <span>min</span>
+                        </div>
+
+                        <div class="divider" aria-hidden="true"></div>
+
+                        <div class="time-unit">
+                            <div id="seconds">00</div>
+                            <span>seg</span>
+                        </div>
                     </div>
 
-                    <div class="divider" aria-hidden="true"></div>
-
-                    <div class="time-unit">
-                        <div id="hours">00</div>
-                        <span>hs</span>
-                    </div>
-
-                    <div class="divider" aria-hidden="true"></div>
-
-                    <div class="time-unit">
-                        <div id="minutes">00</div>
-                        <span>min</span>
-                    </div>
-
-                    <div class="divider" aria-hidden="true"></div>
-
-                    <div class="time-unit">
-                        <div id="seconds">00</div>
-                        <span>seg</span>
-                    </div>
+                    <div class="heart" aria-label="corazón">❤</div>
                 </div>
-
-                <div class="heart" aria-label="corazón">❤</div>
             </div>
         </div>
+
     </section>
 
     <!-- Sección Fiesta -->
@@ -166,29 +169,19 @@
                 <div class="confirmation-content">
                     <div class="confirmation-icon">💫</div>
                     <p class="confirmation-question">¿Vas a asistir a mis 15 años?</p>
-                    
+
                     <div class="confirmation-options">
                         <button class="btn-confirm-yes" data-response="si">
                             <span class="icon">✅</span>
                             <span>Sí, voy a asistir</span>
                         </button>
-                        
+
                         <button class="btn-confirm-no" data-response="no">
                             <span class="icon">❌</span>
                             <span>No podré asistir</span>
                         </button>
                     </div>
-                    
-                    <div class="guest-counter">
-                        <label for="guestCount">Número de acompañantes:</label>
-                        <select id="guestCount">
-                            <option value="0">0 (solo yo)</option>
-                            <option value="1">1 acompañante</option>
-                            <option value="2">2 acompañantes</option>
-                            <option value="3">3 acompañantes</option>
-                        </select>
-                    </div>
-                    
+
                     <div class="confirmation-note">
                         <small>Al confirmar, se abrirá WhatsApp para enviar tu respuesta automáticamente</small>
                     </div>
@@ -196,7 +189,6 @@
             </div>
         </div>
     </div>
-
     <!-- Modal de regalos -->
     <div id="giftModal" class="modal">
         <div class="modal-content">
@@ -208,7 +200,7 @@
                 <div class="gift-modal-content">
                     <div class="gift-icon">🎁</div>
                     <p class="gift-modal-text">¡Gracias por tu regalo!</p>
-                    
+
                     <div class="alias-simple">
                         <label>Alias de Mercado Pago:</label>
                         <div class="alias-box">
@@ -235,11 +227,13 @@
                 <div class="dresscode-modal-content">
                     <div class="color-restriction">
                         <div class="restriction-icon">🎨</div>
-                        <p class="restriction-text">Por favor, evita usar el color <strong>verde</strong> en tu vestuario</p>
+                        <p class="restriction-text">Por favor, evita usar el color <strong>verde</strong> en tu
+                            vestuario</p>
                     </div>
-                    
+
                     <div class="dresscode-actions">
-                        <button class="btn-see-examples" onclick="window.open('https://www.bing.com/images/search?q=vestimenta%20elegante%20sport%20&qs=n&form=QBIR&sp=-1&lq=0&pq=vestimenta%20elegante%20sport%20x&sc=10-27&cvid=78F6EF23817B4F8A91ECE2EDAE4A7BAE&first=1', '_blank')">
+                        <button class="btn-see-examples"
+                            onclick="window.open('https://www.bing.com/images/search?q=vestimenta%20elegante%20sport%20&qs=n&form=QBIR&sp=-1&lq=0&pq=vestimenta%20elegante%20sport%20x&sc=10-27&cvid=78F6EF23817B4F8A91ECE2EDAE4A7BAE&first=1', '_blank')">
                             <span class="example-icon">👗</span>
                             Ver Ejemplos
                         </button>
@@ -251,4 +245,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>

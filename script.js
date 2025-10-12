@@ -75,15 +75,11 @@ document.querySelector('.btn-ver-mas').addEventListener('click', () => openModal
 document.querySelectorAll('.btn-confirm-yes, .btn-confirm-no').forEach(button => {
     button.addEventListener('click', function() {
         const response = this.getAttribute('data-response');
-        const guestCount = document.getElementById('guestCount').value;
         
         let message = `Hola Luciana! `;
         
         if (response === 'si') {
             message += `¡Sí, voy a asistir a tus 15 años!`;
-            if (guestCount > 0) {
-                message += ` Vendré con ${guestCount} acompañante${guestCount > 1 ? 's' : ''}.`;
-            }
         } else {
             message += `Lamentablemente no podré asistir a tus 15 años. ¡Te deseo una feliz celebración!`;
         }

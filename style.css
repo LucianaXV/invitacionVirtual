@@ -31,6 +31,7 @@ body {
     text-align: center;
     padding: 80px 0 60px;
     position: relative;
+    background-color: #F7F7F7;
 }
 
 .floral-decoration {
@@ -60,6 +61,18 @@ body {
 .floral-decoration img:last-child {
     width: 580px;
     margin-right: 0;
+}
+
+.fondo-timerr {
+    width: 100%;
+    background-color: #F7F7F7; /* fondo base de toda la sección */
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain; /* mantiene proporción del ramo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
 }
 
 .date-line {
