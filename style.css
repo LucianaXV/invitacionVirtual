@@ -816,16 +816,16 @@ button:hover {
     }
     
     #flores {
-        width: 120px;
+        width: 220px;
         max-height: 130px;
     }
     
     .floral-decoration img:first-child {
-        width: 110px;
+        width: 210px;
     }
     
     .floral-decoration img:last-child {
-        width: 130px;
+        width: 230px;
     }
     
     .date-line .date {
