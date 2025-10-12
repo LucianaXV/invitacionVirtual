@@ -1128,3 +1128,133 @@ button:hover {
         height: 45px;
     }
 }
+
+/* ===== RESPONSIVE - TIMER MOBILE ===== */
+@media (max-width: 768px) {
+    /* Countdown Section - Mobile Fix */
+    .countdown-section {
+        padding: 30px 0;
+    }
+    
+    .countdown-bg {
+        --w: 90vw;
+        aspect-ratio: 1 / 1;
+        height: auto;
+        min-height: 300px;
+    }
+    
+    .countdown-bg::before {
+        background-position: center center;
+        background-size: 90% auto;
+        transform: translate(0%, 0%);
+    }
+    
+    .countdown-circle {
+        width: 280px;
+        height: 280px;
+        min-width: 280px;
+        min-height: 280px;
+    }
+    
+    .countdown-circle h2 {
+        font-size: 28px;
+        margin: 5px 0 10px;
+    }
+    
+    .countdown-timer {
+        gap: 8px;
+        margin: 10px auto;
+    }
+    
+    .time-unit {
+        min-width: 50px;
+    }
+    
+    .time-unit>div {
+        font-size: 1.6rem;
+        margin-bottom: 4px;
+    }
+    
+    .time-unit>span {
+        font-size: 0.8rem;
+    }
+    
+    .divider {
+        height: 35px;
+    }
+    
+    .heart {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Countdown Section - Small Mobile Fix */
+    .countdown-section {
+        padding: 20px 0;
+    }
+    
+    .countdown-bg {
+        --w: 95vw;
+        min-height: 250px;
+    }
+    
+    .countdown-circle {
+        width: 240px;
+        height: 240px;
+        min-width: 240px;
+        min-height: 240px;
+    }
+    
+    .countdown-circle h2 {
+        font-size: 24px;
+    }
+    
+    .countdown-timer {
+        gap: 5px;
+    }
+    
+    .time-unit {
+        min-width: 45px;
+    }
+    
+    .time-unit>div {
+        font-size: 1.4rem;
+    }
+    
+    .time-unit>span {
+        font-size: 0.75rem;
+    }
+    
+    .divider {
+        height: 30px;
+    }
+    
+    .heart {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 360px) {
+    /* Countdown Section - Extra Small Mobile */
+    .countdown-circle {
+        width: 220px;
+        height: 220px;
+        min-width: 220px;
+        min-height: 220px;
+        padding: 15px;
+    }
+    
+    .countdown-circle h2 {
+        font-size: 22px;
+    }
+    
+    .time-unit>div {
+        font-size: 1.3rem;
+    }
+    
+    .time-unit>span {
+        font-size: 0.7rem;
+    }
+}
