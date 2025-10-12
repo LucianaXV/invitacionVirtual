@@ -142,7 +142,6 @@ document.querySelector('.music-button').addEventListener('click', function () {
 
 // Botón agendar (placeholder)
 document.querySelector('.btn-agendar').addEventListener('click', function () {
-    alert('Funcionalidad de agendar por implementar');
 });
 
 // Agrega esto en tu script.js
