@@ -182,7 +182,7 @@ body {
     background-repeat: no-repeat;
     background-position: 50% top;
     background-size: contain;
-    transform: translate(1.5%, -4%);
+    transform: translate(1%, -4%);
 }
 
 .countdown-circle {
