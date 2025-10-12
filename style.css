@@ -14,6 +14,15 @@
     box-sizing: border-box;
 }
 
+.countdown-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0; /* 👈 ajustá según cuánto espacio quieras */
+}
+
+
 body {
     font-family: 'Poppins', sans-serif;
     color: #33483E;

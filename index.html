@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
     <!-- Agrega esto en el head -->
-<audio id="backgroundMusic" loop>
-    <source src="./cancion_beatles.mpeg" type="audio/mpeg">
-    <source src="./cancion_beatles.mpeg" type="audio/ogg">
-    Tu navegador no soporta el elemento de audio.
-</audio>
+    <audio id="backgroundMusic" loop>
+        <source src="./cancion_beatles.mpeg" type="audio/mpeg">
+        <source src="./cancion_beatles.mpeg" type="audio/ogg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
 </head>
 
 <body>
@@ -47,38 +47,43 @@
         <div class="fondo-timerr">
             <div class="countdown-bg">
                 <div class="countdown-circle">
-                    <h2>Falta</h2>
+                    <div class="countdown-content">
+                        <h2>Falta</h2>
 
-                    <div class="countdown-timer">
-                        <div class="time-unit">
-                            <div id="days">00</div>
-                            <span>días</span>
+                        <div class="countdown-timer">
+                            <div class="time-unit">
+                                <div id="days">00</div>
+                                <span>días</span>
+                            </div>
+
+                            <div class="divider" aria-hidden="true"></div>
+
+                            <div class="time-unit">
+                                <div id="hours">00</div>
+                                <span>hs</span>
+                            </div>
+
+                            <div class="divider" aria-hidden="true"></div>
+
+                            <div class="time-unit">
+                                <div id="minutes">00</div>
+                                <span>min</span>
+                            </div>
+
+                            <div class="divider" aria-hidden="true"></div>
+
+                            <div class="time-unit">
+                                <div id="seconds">00</div>
+                                <span>seg</span>
+                            </div>
                         </div>
 
-                        <div class="divider" aria-hidden="true"></div>
-
-                        <div class="time-unit">
-                            <div id="hours">00</div>
-                            <span>hs</span>
-                        </div>
-
-                        <div class="divider" aria-hidden="true"></div>
-
-                        <div class="time-unit">
-                            <div id="minutes">00</div>
-                            <span>min</span>
-                        </div>
-
-                        <div class="divider" aria-hidden="true"></div>
-
-                        <div class="time-unit">
-                            <div id="seconds">00</div>
-                            <span>seg</span>
-                        </div>
+                        <div class="heart" aria-label="corazón">❤</div>
                     </div>
-
-                    <div class="heart" aria-label="corazón">❤</div>
                 </div>
+
+
+
             </div>
         </div>
 
