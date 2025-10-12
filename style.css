@@ -299,8 +299,10 @@ body {
 }
 
 #banner {
-    width: 350px;
-    height: 50px
+  display: block;
+  width: min(90vw, 420px);
+  height: auto;            /* mantiene proporción */
+  object-fit: contain;     /* evita deformación si cambia el contenedor */
 }
 
 .party-details {
@@ -889,9 +891,9 @@ button:hover {
 
     /* Party Section */
     #banner {
-        width: 150px;
-        height: 50px;
-    }
+  width: min(88vw, 360px);
+  height: auto;            /* clave */
+}
 
     .detail-label {
         font-size: 24px;
@@ -1016,10 +1018,11 @@ button:hover {
 
 
     /* Party Section */
-    #banner {
-        width: 150px;
-        height: 50px;
-    }
+   #banner {
+  width: min(92vw, 320px);
+  height: auto;
+}
+
 
     .detail-label {
         font-size: 20px;
