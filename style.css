@@ -1304,6 +1304,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 10px;
 }
 
 .salon-logo {
@@ -1319,22 +1320,62 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* ===== RESPONSIVE PARA EL LOGO ===== */
-@media (max-width: 768px) {
+/* ===== RESPONSIVE PARA EL LOGO LA PALOMA ===== */
+@media (max-width: 1200px) {
     .salon-logo {
         width: 180px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 992px) {
     .salon-logo {
-        width: 160px;
+        width: 170px;
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 768px) {
+    .salon-logo {
+        width: 160px;
+    }
+    
+    .salon-logo-container {
+        margin: 12px 0;
+    }
+}
+
+@media (max-width: 576px) {
     .salon-logo {
         width: 140px;
+    }
+}
+
+@media (max-width: 480px) {
+    .salon-logo {
+        width: 130px;
+    }
+    
+    .salon-logo-container {
+        margin: 10px 0;
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 375px) {
+    .salon-logo {
+        width: 120px;
+    }
+}
+
+@media (max-width: 320px) {
+    .salon-logo {
+        width: 110px;
+    }
+}
+
+/* Para pantallas muy grandes */
+@media (min-width: 1400px) {
+    .salon-logo {
+        width: 220px;
     }
 }
 
