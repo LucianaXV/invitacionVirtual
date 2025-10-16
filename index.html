@@ -17,6 +17,9 @@
     </audio>
 </head>
 
+
+
+
 <body>
     <!-- Encabezado principal -->
     <header class="main-header">
@@ -33,11 +36,11 @@
             <h1 class="name">Luciana</h1>
             <h2 class="subtitle">Mis 15 años</h2>
             <div class="invitation-text">
-                <span class="quote">“</span>
+                <span class="quote">"</span>
                 <br>
                 Te espero para compartir la alegría de esa noche que será para mi mágica, inolvidable y única.
                 <br>
-                <span class="quote">”</span>
+                <span class="quote">"</span>
             </div>
         </div>
     </header>
@@ -104,6 +107,9 @@
 
             <div class="detail-item">
                 <div class="detail-label">Lugar</div>
+                <div class="salon-logo-container">
+                    <img src="./laPaloma.png" alt="Logo La Paloma" class="salon-logo">
+                </div>
                 <div class="detail-value">Salón La Paloma 3</div>
                 <button class="btn-confirmar">CONFIRMAR ASISTENCIA</button>
             </div>
@@ -169,7 +175,7 @@
         </div>
     </div>
 
-    <!-- Modal de confirmación -->
+       <!-- Modal de confirmación -->
     <div id="confirmModal" class="modal">
         <div class="modal-content">
             <div class="modal-header">
@@ -180,6 +186,12 @@
                 <div class="confirmation-content">
                     <div class="confirmation-icon">💫</div>
                     <p class="confirmation-question">¿Vas a asistir a mis 15 años?</p>
+                    
+                    <!-- Aviso de fecha límite agregado -->
+                    <div class="deadline-notice">
+                        <span class="deadline-icon">📅</span>
+                        <span class="deadline-text">Confirmar antes del 1° de Noviembre de 2025</span>
+                    </div>
 
                     <div class="confirmation-options">
                         <button class="btn-confirm-yes" data-response="si">
