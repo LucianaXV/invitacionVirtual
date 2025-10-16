@@ -1159,7 +1159,7 @@ button:hover {
     .countdown-bg::before {
         background-position: center center;
          background-size: 100% auto;
-        transform: translate(0%, -15%);
+        transform: translate(0%, -5%);
     }
 
     .countdown-circle {
