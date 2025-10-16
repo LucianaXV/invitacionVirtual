@@ -217,7 +217,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: clamp(15px, 1.2vw, 15px);
+    gap: 10px;
     margin: 0 auto;
     width: 100%;
 }
